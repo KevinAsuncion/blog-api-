@@ -1,7 +1,5 @@
 const express = require('express');
 const router = express.Router();
-
-
 const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
 
@@ -12,7 +10,6 @@ BlogPosts.create('blog post 1', 'Hello World 1', 'Kevin');
 BlogPosts.create('blog post 2', 'Hello World 2', 'Kevin');
 
 //Routes
-
 router.get('/', (req, res) => {
     res.json(BlogPosts.get());
 });
