@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: i/vvmac8da1AaQvHBXx+CyCWiR4Pgx3TwLukkjZlPAAcTtok3toA9bHKBjK2+HAijdjibEl6rbWnkLZoUmx+i27zyHmVhXltuB+/7Yb1flR+TsXHeyTfQxoCuVoPr9gQKt/QCpyLWRzDf2yk23YG/7aLhyH0TVe58vqKpKypUNgO/u9p6nXDtA5512GJwtTZ//2G36+iAV1lh4hvK+cyo92KvZuB789rnD3u6RijwdtYYtFAZZwjtfuN+S9sN9J996IxBJKzmIIxEP7CiBxEH7y0M33o8+B19Bp+g061kmhIx/ZxP28CB33+f+lQal9NI+aXzbsh947N83bIDFr5zbJxFH/L2QRBer4hQS3e0Jqr5FoMjha0dU/xx08y9gO56Zul/xCo3SSoPO6eULGt/ACB4eeOw81f1cB8ORS06+ZRWjzOTCzgd6ZaUKjzZ1e4H/CHpGbGkLJtJoYptfyqNXYTT3GBm2fCsAgbw66/XuhzLbT1yISAeTl63x1J3JbII91k62/Wd4UVp5YcomauvV9Jm5/VAxE1LkpYfhiscNI/sOMfM9h+BKy5RSg/DFBDi/mnZKvzYkq0ywmE2J/HkwbFvMo4ApW3xPT2Isz0OR4XdBdE3qb9yzo6etlOOSih69fel+D0q5c8XcNS/R8P0Rrm4uFUQbDlVk2kmOPGY3g=
+  app: https://still-dusk-80939.herokuapp.com/
+  on:
+    repo: KevinAsuncion/blog-api-
